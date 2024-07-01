@@ -51,4 +51,39 @@ public class CabecalhoDeVenda {
         this.valorTotal = valorTotal;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public int getPedidoNumero() {
+        return pedidoNumero;
+    }
+
+    public void setPedidoNumero(int pedidoNumero) {
+        this.pedidoNumero = pedidoNumero;
+    }
+
+    public Date getData() {
+        return data;
+    }
+
+    public void setData(Date data) {
+        this.data = data;
+    }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public static float getValorTotal() {
+        return valorTotal;
+    }
 }

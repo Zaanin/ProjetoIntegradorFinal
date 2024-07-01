@@ -85,5 +85,21 @@ public class Produto{
     public void setQuantidadeEstoque(int quantidadeEstoque) {
         this.quantidadeEstoque = quantidadeEstoque;
     }
+
+    public String getCategoria() {
+        return Categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        Categoria = categoria;
+    }
+
+    public String getImagemProduto() {
+        return imagemProduto;
+    }
+
+    public void setImagemProduto(String imagemProduto) {
+        this.imagemProduto = imagemProduto;
+    }
 }
 

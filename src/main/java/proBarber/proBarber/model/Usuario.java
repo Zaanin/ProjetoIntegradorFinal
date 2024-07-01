@@ -30,6 +30,17 @@ public class Usuario{
     )
     private String Email;
 
+    public Usuario(long id, String usuario, String senha, String nome, String email) {
+        this.id = id;
+        Usuario = usuario;
+        Senha = senha;
+        Nome = nome;
+        Email = email;
+    }
+
+    public Usuario() {
+    }
+
     public long getId() {
         return id;
     }
@@ -69,4 +80,6 @@ public class Usuario{
     public void setEmail(String email) {
         Email = email;
     }
+
+
 }
